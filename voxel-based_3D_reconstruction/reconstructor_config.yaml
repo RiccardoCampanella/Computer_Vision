@@ -1,0 +1,16 @@
+voxel_grid: [100, 100, 100]
+space_size: [1500, 1500, 1800]
+x_shift: 0
+y_shift: 0
+z_shift: 0
+num_cams: 4
+camera_config:
+  erosion_dilation: [dilation, erosion]
+  kernel: [5, 5]
+  erosion_iterations: 1
+  dilation_iterations: 1
+  hue_threshold: [0, 180]
+  saturation_threshold: [0, 255]
+  value_threshold: [20, 180]
+show_masks: False
+reduce_noise: False

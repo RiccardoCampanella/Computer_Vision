@@ -1,0 +1,16 @@
+data_dir : run1
+grid : [6, 9]
+square_size: 2.5
+img_limit: 25
+include_images: 
+display_calibration: True
+display_timer: 500
+online_image: test.jpg
+interpolation: perspective #linear or perspective
+scale_factor: 25 # scale factor for perspective interpolation, higher value corresponds to higher resolution => better accuracy
+display_calibration_cameras: False
+display_online_position: False
+refine_manual_corners: True
+manual_corners_window: 30
+color_uniformity_threshold: 20
+verbose_refinement: False

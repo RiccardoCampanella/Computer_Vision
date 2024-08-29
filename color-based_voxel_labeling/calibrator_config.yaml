@@ -1,0 +1,23 @@
+data_dir :
+grid : [6, 8]
+square_size: 115
+img_limit: 100
+include_images: 
+display_calibration: True
+display_timer: 500
+online_image: test.jpg
+interpolation: perspective #linear or perspective
+scale_factor: 25 # scale factor for perspective interpolation, higher value corresponds to higher resolution => better accuracy
+display_calibration_cameras: False # for 3D scene, na
+display_online_position: False # for 3D scene, na
+manual_corners_calibration: False # enable manual corners selection for calibration in case chess board is not detected
+cornerSubpix_offline: True # enable corner subpix refinement post interpolation for offline calibration
+cornerSubpix_online: False # enable corner subpix refinement post interpolation for online calibration
+refine_manual_corners: True # apply manual corner localisation refinement
+force_manual_corners: True # force manual corner localisation online
+manual_corners_window: 30
+color_uniformity_threshold: 20
+verbose_refinement: False
+draw_cube: False
+draw_axes: True
+circle_size: 2
